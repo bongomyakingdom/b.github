@@ -1,0 +1,59 @@
+
+ai.proje.list() = mevcut proje listesini mesaj olarak yazacaksın
+ai.proje.add_project(category, dificulty, projectname, details...) = yeni proje ekleyeceksin
+ai.proje.update(category, project number, completed) = projeyi tamamlandı olarak işaretle
+ai.proje.update(category, project number, uncompleted) = projeyi tamamlanmadı olarak işaretle
+ai.proje.update(category, project number, give up) = projeyi vazgeçildi olarak işaretle 
+
+#🟰 = tamamlanmadı durumundaki projelerin yanına konulacak
+#✅ = tamamlandı durumundaki projelerin yanına konulacak
+#❌ = vaz geçildi durumundaki projelerin yanına konulacak
+
+ai.proje.delete(category, project number): Belirli bir projeyi siler.
+ai.proje.show_details(category, project number): Proje hakkında daha fazla bilgi gösterir.
+ai.proje.update_details(category, project number, new details): Proje detaylarını günceller.
+ai.proje.filter_by_status(status): Projeleri durumlarına göre filtreler (tamamlanmadı, tamamlandı, vazgeçildi).
+
+ai.proje.filter_by_category(category): Kategoriye göre projeleri filtreler.
+ai.proje.sort_by_difficulty(order): Zorluk seviyesine göre projeleri sıralar
+
+ai.proje.add_category(category_name): Yeni bir kategori ekler.
+ai.proje.delete_category(category_name): Belirli bir kategoriyi siler.
+
+
+ai.proje.rename(category, project number, new_name): Belirli bir projenin adını değiştirir.
+ai.proje.get_stats(): Tüm projelerinizin genel istatistiklerini gösterir (tamamlanan, tamamlanmayan, vazgeçilen projelerin sayısı vb.).
+
+ai.proje.add_note(category, project number, note): Projeye bir not ekler.
+ai.proje.remove_note(category, project number): Projeden notu siler.
+ai.proje.add_tags(category, project number, tags): Projeye etiketler ekler (örneğin, "öncelikli", "uzun süreli" vb.).
+ai.proje.remove_tags(category, project number, tags): Projeden etiketleri kaldırır.
+ai.proje.view_notes(category, project number): Projeye eklenen notları gösterir.
+ai.proje.get_project_summary(category, project number): Proje hakkında özet bilgi verir
+
+
+..................................................
+
+bir proje yöneticisi js kodu yazıyorum. bu komutların hepsinin tanımlı olduğu bir js kodu yaz. bu komutları konsolda çalıştırıcam.
+
+node.js kullanmayacağım. kodu bir html dosyası ile açıp tarajıcı konsolunda komutları çalıştırıcam. 
+
+proje verileri projects.json dosyasında tutulacak.
+
+yazzdığın js kodunda kodları anlamam için açıklama satırları olsun
+
+fonksiyonları ai nesnesine tanımla...
+
+
+
+
+
+add_category: function (categoryName) {
+            if (!ai.projects[categoryName]) {
+                ai.projects[categoryName] = [];
+                ai.saveProjects();
+                console.log(`Yeni kategori eklendi: ${categoryName}`);
+            } else {
+                console.log("Kategori zaten mevcut.");
+            }
+        }

@@ -1,0 +1,590 @@
+{
+  "Fizik": [
+    {
+      "projectname": "Serbest Düşme Simülasyonu",
+      "details": "Newton’un hareket yasalarına göre serbest düşen bir cismin hareketini simüle eden bir program.",
+      "difficulty": "Kolay",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kuantum Durum Simülatörü",
+      "details": "Kübitlerin süperpozisyon ve ölçüm süreçlerini simüle eden bir model.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Elektrik Alanı ve Yük Hareketi Simülasyonu",
+      "details": "Bir elektrik alanındaki yüklerin hareketlerini modelleyen interaktif bir simülasyon.",
+      "difficulty": "Zor",
+      "tags": [
+        "pygame",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Kimya": [
+    {
+      "projectname": "Moleküler Dinamik Simülasyonu",
+      "details": "Moleküllerin hareketlerini basit fizik kurallarına göre simüle eder ve görselleştirir.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kimyasal Reaksiyon Optimizasyonu",
+      "details": "Bir kimyasal reaksiyonun optimal koşullarını bulmaya yönelik hesaplamalar yapar.",
+      "difficulty": "Orta",
+      "tags": [
+        "scipy"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kimyasal Reaksiyon Denkleştirici",
+      "details": "Verilen kimyasal tepkime denklemini en küçük tam sayılarla denkleştirir",
+      "difficulty": "Zor",
+      "tags": [],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": true,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kimyasal Reaksiyon Tahmin Modeli",
+      "details": "Verilen reaktantlara göre ortaya çıkabilecek reaksiyon ürünlerini tahmin eden bir makine öğrenmesi modeli geliştir.",
+      "difficulty": "Zor",
+      "tags": [
+        "scikit-learn"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kimyasal Bileşik Tahmini",
+      "details": "Belirli elementlerden oluşabilecek bileşikleri, derin öğrenme yöntemleriyle (örn. sinir ağı) öngören model.",
+      "difficulty": "Zor",
+      "tags": [
+        "keras"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Molekül Yapısı Görselleştirme",
+      "details": "Kullanıcının girdiği moleküllerin 2D veya 3D yapısını çizen bir görselleştirme aracı.",
+      "difficulty": "Kolay",
+      "tags": [
+        "rdkit",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Asit-Baz Tepkimeleri Simülasyonu",
+      "details": "Farklı asit ve bazların pH değişimini hesaplayan ve görselleştiren bir simülasyon.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Termodinamik Simülasyonu",
+      "details": "Kimyasal reaksiyonların entalpi, entropi ve Gibbs serbest enerjisini hesaplayan bir model.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "scipy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Gaz Yasaları Simülatörü",
+      "details": "İdeal gaz yasalarına göre hacim, basınç ve sıcaklık değişimlerini hesaplayan bir uygulama.",
+      "difficulty": "Kolay",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Organik Molekül Sentez Önerisi",
+      "details": "Bir kimyasal bileşiğin sentez yollarını öneren basit bir makine öğrenmesi modeli.",
+      "difficulty": "Zor",
+      "tags": [
+        "scikit-learn",
+        "rdkit"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Elektrokimya Simülasyonu",
+      "details": "Farklı elektrot ve çözelti kombinasyonlarıyla elektrokimyasal reaksiyonları simüle eden bir model.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kimyasal Maddenin Spektrum Analizi",
+      "details": "Bir kimyasal maddenin IR veya NMR spektrumunu tahmin eden bir model.",
+      "difficulty": "Zor",
+      "tags": [
+        "scipy",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Katalizör Verimlilik Analizi",
+      "details": "Farklı katalizörlerin reaksiyon hızına etkisini analiz eden bir simülasyon.",
+      "difficulty": "Zor",
+      "tags": [
+        "scipy",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": " İlaç Keşfi İçin Makine Öğrenmesi",
+      "details": "Makine öğrenmesini kullanarak belirli hastalıklar için potansiyel ilaç moleküllerini tahmin edebilirsin.",
+      "difficulty": "Zor",
+      "tags": [
+        "TensorFlow",
+        "PyTorch",
+        "PubChem",
+        "ChEMBL"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T20:52:37.018Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Biyoloji ?": [
+    {
+      "projectname": "DNA Dizilimi Görselleştirme",
+      "details": "Kullanıcının girdiği DNA dizilimini analiz edip görselleştiren basit bir araç.",
+      "difficulty": "Kolay",
+      "tags": [
+        "biopython",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Popülasyon Dinamiği Simülasyonu",
+      "details": "Bir ortamda avcı ve av popülasyonlarının zamanla nasıl değiştiğini gösteren bir simülasyon.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Sinir Ağı Simülasyonu (Biyolojik)",
+      "details": "Basit bir yapay sinir ağı ile biyolojik nöron etkileşimlerini modelleme.",
+      "difficulty": "Zor",
+      "tags": [
+        "tensorflow",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Matematik": [
+    {
+      "projectname": "Fraktal Üretimi (Mandelbrot Seti)",
+      "details": "Basit bir Python programı ile Mandelbrot kümesini çizen bir uygulama.",
+      "difficulty": "Kolay",
+      "tags": [
+        "matplotlib",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Matematiksel Kaos Simülasyonu",
+      "details": "Lorenz çekicisi gibi kaotik sistemleri simüle eden bir model.",
+      "difficulty": "Orta",
+      "tags": [
+        "matplotlib",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Optimizasyon Algoritmaları (Genetik Algoritma)",
+      "details": "Genetik algoritmaları kullanarak fonksiyon optimizasyonu yapan bir model.",
+      "difficulty": "Zor",
+      "tags": [
+        "scipy",
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-17T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Astronomi": [
+    {
+      "projectname": "Basit Gök Haritası",
+      "details": "Kullanıcının konumuna göre gökyüzü haritası oluşturan uygulama.",
+      "difficulty": "Kolay",
+      "tags": [
+        "astropy"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Basit Teleskop Simülasyonu",
+      "details": "Kullanıcının seçtiği gökyüzü bölgesinde yakınlaştırma yaparak teleskop simülasyonu sunar.",
+      "difficulty": "Kolay",
+      "tags": [
+        "pygame"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Takımyıldızı Tanıma",
+      "details": "Kullanıcının girdiği yıldız deseni verisine göre hangi takımyıldızına ait olduğunu tahmin eder.",
+      "difficulty": "Kolay",
+      "tags": [
+        "scikit-learn"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Exoplanet Keşif Veri Analizi",
+      "details": "NASA'nın exoplanet veri setini kullanarak gezegen özelliklerini analiz eden ve görselleştiren uygulama.",
+      "difficulty": "Orta",
+      "tags": [
+        "pandas",
+        "seaborn"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Ekzoplanet Dedektörü",
+      "details": "Yıldız parlaklık verilerini analiz ederek gezegen geçişlerini (transit) tespit eden model.",
+      "difficulty": "Orta",
+      "tags": [
+        "Python tabanlı makine öğrenmesi yöntemleri"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Uzayda Sesler Simülatörü",
+      "details": "NASA verilerini kullanarak farklı gök cisimlerinden gelen radyo dalgalarını sese çeviren proje.",
+      "difficulty": "Orta",
+      "tags": [
+        "Python (veri işleme ve ses dönüşümü)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Galaksi Sınıflandırma",
+      "details": "Derin öğrenme kullanarak galaksi türlerini sınıflandıran model.",
+      "difficulty": "Zor",
+      "tags": [
+        "tensorflow"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Yeni Takımyıldız Keşfi İçin AI",
+      "details": "Yıldız gruplarını analiz ederek mevcut verilerden yola çıkarak yeni takımyıldız önerileri sunan model.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (makine öğrenmesi)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Teleskop Görüntülerini AI ile Güzelleştirme",
+      "details": "Bulanık veya düşük kaliteli uzay görüntülerini yapay zeka ile netleştiren uygulama.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (görüntü işleme, ML)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "AI Destekli Süpernova Tespiti",
+      "details": "Yıldız parlaklık verilerini analiz ederek süpernova adaylarını tespit eden gelişmiş makine öğrenmesi modeli.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (ML)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "NASA Astronomi Verilerini Kullanarak Gezegen Benzerliği Hesaplama",
+      "details": "Yeni keşfedilen gezegenleri, Dünya’ya olan benzerliklerine göre puanlayan model.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (ML)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Teleskop Verileri İçin Gürültü Giderme AI",
+      "details": "Astronomi görüntülerindeki parazit ve gürültüyü azaltmaya yönelik yapay zeka uygulaması.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (ML, görüntü işleme)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Kendi Radyo Teleskopunu Simüle Et",
+      "details": "Radyo teleskop verilerini işleyip simüle eden, sinyal işleme temelli gelişmiş proje.",
+      "difficulty": "Zor",
+      "tags": [
+        "Python (sinyal işleme, simülasyon)"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Biyokimya": [
+    {
+      "projectname": "Protein Yapısı Görselleştirme",
+      "details": "Proteinlerin amino asit dizilimi ve temel yapısını grafiksel olarak sunar.",
+      "difficulty": "Kolay",
+      "tags": [
+        "matplotlib",
+        "biopython"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Protein Katlanma Simülasyonu",
+      "details": "Protein moleküllerinin katlanma süreçlerini basit fizik kurallarıyla simüle eder.",
+      "difficulty": "Orta",
+      "tags": [
+        "numpy"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Protein Yapı Tahmini",
+      "details": "Amino asit dizilimine göre protein yapısını öngörmeye yönelik model geliştirir.",
+      "difficulty": "Orta",
+      "tags": [
+        "biopython"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Protein Katlanma Tahmini",
+      "details": "Makine öğrenmesi kullanarak protein katlanma süreçlerini tahmin eden model.",
+      "difficulty": "Zor",
+      "tags": [
+        "tensorflow",
+        "biopython"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Protein Yapı Optimizasyonu",
+      "details": "Protein yapısını optimize etmek için matematiksel ve algoritmik yöntemler kullanan proje.",
+      "difficulty": "Zor",
+      "tags": [
+        "scipy"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Yapay Hücre Simülasyonu",
+      "details": "Yapay bir hücrenin metabolik süreçlerini detaylı olarak simüle eden kapsamlı proje.",
+      "difficulty": "Zor",
+      "tags": [
+        "numpy",
+        "matplotlib"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ],
+  "Makine Öğrenmesi": [
+    {
+      "projectname": "Basit Doğrusal Regresyon Modeli",
+      "details": "İki değişken arasındaki ilişkiyi modelleyen basit bir regresyon uygulaması.",
+      "difficulty": "Kolay",
+      "tags": [
+        "scikit-learn"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Metin Sınıflandırma Modeli",
+      "details": "Metin verilerini kategorilere ayıran bir doğal dil işleme modeli.",
+      "difficulty": "Zor",
+      "tags": [
+        "scikit-learn",
+        "nltk"
+      ],
+      "notes": [],
+      "createdDate": "2023-10-01T12:00:00Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "MNIST Veri Seti ile Rakam Tanıma",
+      "details": "MNIST veri setini kullanarak rakamları tanıyan bir sinir ağı modeli.",
+      "difficulty": "Orta",
+      "tags": [
+        "tensorflow, keras"
+      ],
+      "notes": [],
+      "createdDate": "2025-03-16T20:23:39.206Z",
+      "completed": false,
+      "giveUp": false
+    },
+    {
+      "projectname": "Otonom Araç",
+      "details": "Yolda kendi kendine giden araç",
+      "difficulty": "Zor",
+      "tags": [],
+      "notes": [],
+      "createdDate": "2025-03-17T17:12:45.433Z",
+      "completed": false,
+      "giveUp": false
+    }
+  ]
+}
