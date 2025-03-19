@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Equation Balancer</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #inputFormula { width: 300px; padding: 5px; }
+        #balanced { font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Chemical Equation Balancer</h1>
+    <p>Enter a chemical equation below and click "Balance" to balance it.</p>
+    <input type="text" id="inputFormula" placeholder="H2 + O2 = H2O">
+    <button onclick="doBalance()">Balance</button>
+    <button onclick="doRandom()">Random Example</button>
+    <p id="message"></p>
+    <p id="balanced"></p>
+    <p id="codeOutput"></p>
+
+    <!-- JavaScript dosyasını en sona ekle -->
+    <script src="chemicalEqBalancer002.js"></script>
+</body>
+</html>
