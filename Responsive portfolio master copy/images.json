@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "url": "images/1.jpg",
+      "date": "2024-03-19",
+      "description": "Güzel bir manzara",
+      "collection": "Doğa",
+      "showOnMain": true
+    },
+    {
+      "id": 2,
+      "url": "images/2.jpg",
+      "date": "2024-03-18",
+      "description": "Şehir gece ışıkları",
+      "collection": "Şehir",
+      "showOnMain": false
+    },
+    {
+      "id": 3,
+      "url": "images/3.jpg",
+      "date": "2024-03-17",
+      "description": "Deniz kenarında gün batımı",
+      "collection": "Doğa",
+      "showOnMain": true
+    }
+  ]
