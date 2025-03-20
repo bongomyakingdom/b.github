@@ -1,0 +1,10 @@
+[
+  {
+    "src": "./assets/images/blog_post_1.jpg",
+    "showOnHomepage": true
+  },
+  {
+    "src": "./assets/images/blog_post_2.jpg",
+    "showOnHomepage": false
+  }
+]
